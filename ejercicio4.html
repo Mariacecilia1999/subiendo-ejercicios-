@@ -1,0 +1,72 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4 NUCBA</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+
+    <main>
+        <form>
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            
+            <br>
+
+            <div>
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" name="apellidos" id="apellidos">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="sexo">Sexo: </label>
+
+                <input type="radio" name="sexo" value="hombre">
+                <label for="sexo">hombre</label>
+
+                <input type="radio" name="sexo" value="mujer">
+                <label for="sexo">mujer</label>
+            </div>
+
+            <br>
+
+            <label for="mail">Correo: </label>
+            <input type="email" name="mail" id="mail">
+            <br>
+            <br>
+
+            <label for="poblacion">Población:</label>
+            <select name="poblacion" id="poblacion">
+                <option value="alicante">Alicante</option>
+            </select>
+
+            <br>
+            <br>
+            <label for="mensaje">Descripción: </label>
+            <textarea  name="mensaje" id="mensaje" cols="40" rows="5">
+            </textarea>
+            <br>
+            <div>
+                <br>
+                <input type="checkbox" name="condicion1" id="condicion1">
+                <label for="condicion1">Deseo recibir información sobre novedades y ofertas</label>
+                <br>
+                <br>
+                <input type="checkbox" name="condicion2" id="condicion2">
+                <label for="condicion2">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+                <br>
+                <br>
+
+                <button type="submit">Enviar</button>
+
+            </div>
+        </form>        
+    </main>
+</body>
+</html>
